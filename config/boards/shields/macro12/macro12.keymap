@@ -5,13 +5,13 @@
 
 / {
     behaviors {
-        // Kurzer Tipp: S | 5s Halten: Bluetooth-Verbindung löschen
+        // Korrigierte Version: Beide Bindings in EINER Klammer
         s_bt_clr: s_bt_clr {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <5000>; 
             flavor = "tap-preferred";
-            bindings = <&bt BT_CLR>, <&kp S>;
+            bindings = <&bt BT_CLR &kp S>; // Kein Komma, eine Klammer!
         };
     };
 
