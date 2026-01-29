@@ -41,7 +41,7 @@
 
 <h2 id="manual-en">📖 Comprehensive Manual</h2>
 <p>
-  This repository includes a <b>detailed 33-page PDF instruction manual</b>. It covers the entire process: from optimized 3D printing settings and complex matrix soldering to flashing the ZMK firmware and customized key mapping.
+  This repository includes a <b>detailed 32-page PDF instruction manual</b>. It covers the entire process: from optimized 3D printing settings and complex matrix soldering to flashing the ZMK firmware and customized key mapping.
   <br><br>
   👉 <b>View the Instructions here:</b> <a href="https://github.com/mrcl-rckl/autodarts_macropad/blob/main/instructions/0_EN_Instructions.pdf">0_EN_Instructions.pdf</a>
 </p>
@@ -233,7 +233,7 @@
 
 <h2 id="manual-de">📖 Umfangreiche Anleitung</h2>
 <p>
-  In diesem Projektarchiv findest du eine <b>detaillierte 33-seitige PDF-Anleitung</b>. Diese führt dich Schritt für Schritt durch den gesamten Prozess: von den optimalen Einstellungen für den 3D-Druck über das präzise Verlöten der Tastatur-Matrix bis hin zur Installation der Steuersoftware und der persönlichen Tastenbelegung.
+  In diesem Projektarchiv findest du eine <b>detaillierte 32-seitige PDF-Anleitung</b>. Diese führt dich Schritt für Schritt durch den gesamten Prozess: von den optimalen Einstellungen für den 3D-Druck über das präzise Verlöten der Tastatur-Matrix bis hin zur Installation der Steuersoftware und der persönlichen Tastenbelegung.
   <br><br>
   👉 <b>Hier zur Anleitung:</b> <a href="https://github.com/mrcl-rckl/autodarts_macropad/blob/main/instructions/0_EN_Instructions.pdf">0_EN_Instructions.pdf</a>
 </p>
