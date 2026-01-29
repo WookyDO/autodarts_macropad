@@ -1,4 +1,6 @@
 <div align="center">
+    <img src="https://github.com/mrcl-rckl/autodarts_macropad/blob/main/readme-images/Rendering.png?raw=true" alt="3D-Modell" width="800">
+  
   <h1>🎯 Autodarts Macropad</h1>
   <p><b>✨ The ultimate DIY wireless companion for your Autodarts setup ✨</b></p>
   <p><i>A custom 12-key controller designed for seamless darts tracking.</i></p>
