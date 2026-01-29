@@ -6,6 +6,10 @@
   <p><i>A custom 12-key controller designed for seamless darts tracking.</i></p>
 
   <p>
+    The Autodarts Macropad is a wireless DIY controller featuring 12 mechanical keys, specifically designed for comfortable operation of the Autodarts software directly from the oche. It provides instant access to functions such as undoing throws, switching cameras, or calling the AI referee, while offering an impressive battery life of about six weeks via Bluetooth. Thanks to its open-source firmware, the entire device is fully customizable to suit your personal needs.
+  </p>
+
+  <p>
     <img src="https://img.shields.io/badge/Difficulty-Experienced_Makers-orange.svg?style=for-the-badge&logo=buildkite" alt="Difficulty" />
     <img src="https://img.shields.io/badge/Hardware-nRF52840-lightgrey.svg?style=for-the-badge&logo=nordicsemiconductor" alt="Hardware" />
     <img src="https://img.shields.io/badge/Firmware-ZMK-blue.svg?style=for-the-badge&logo=github" alt="Firmware" />
@@ -192,22 +196,42 @@
   <h1>🎯 Autodarts Zusatztastatur</h1>
   <p><b>✨ Der ultimative kabellose Begleiter für dein Autodarts-Setup – Marke Eigenbau ✨</b></p>
   <p><i>Ein maßgeschneidertes 12-Tasten-Steuergerät für die professionelle Wurferfassung am Oche.</i></p>
+
+  <p>
+    Das Autodarts Macropad ist ein kabelloses DIY-Steuergerät mit 12 mechanischen Tasten, das speziell für die komfortable Bedienung der Autodarts-Software direkt am Oche entwickelt wurde. Es ermöglicht den blitzschnellen Zugriff auf Funktionen wie Wurfrücknahme, Kamerawechsel oder den KI-Schiedsrichter und bietet dank Bluetooth-Anbindung eine beachtliche Akkulaufzeit von etwa sechs Wochen. Durch die Nutzung von Open-Source-Firmware lässt sich das gesamte Gerät zudem vollständig nach deinen persönlichen Wünschen anpassen.
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Schwierigkeit-Erfahrene_Maker-orange.svg?style=for-the-badge&logo=buildkite" alt="Schwierigkeit" />
+    <img src="https://img.shields.io/badge/Hardware-nRF52840-lightgrey.svg?style=for-the-badge&logo=nordicsemiconductor" alt="Hardware" />
+    <img src="https://img.shields.io/badge/Firmware-ZMK-blue.svg?style=for-the-badge&logo=github" alt="Firmware" />
+  </p>
+
+  <p>
+    <a href="#features-de">🚀 Funktionen</a> •
+    <a href="#manual-de">📖 Anleitung</a> •
+    <a href="#diagrams-de">🗺️ Schaltplan & Pinbelegung</a> •
+    <a href="#keymap-de">🎹 Tastenbelegung</a> •
+    <a href="#bom-de">📦 Stückliste</a> •
+    <a href="#operation-de">💡 Fehlerbehebung</a> •
+    <a href="#support-de">☕ Unterstützung</a>
+  </p>
 </div>
 
 <hr />
 
-<h2>🚀 Hauptmerkmale</h2>
+<h2 id="features-de">🚀 Hauptmerkmale</h2>
 <ul>
   <li><b>📶 Vollkommen Kabellos:</b> Dank Bluetooth 5.0 und dem nRF52840-Steuermodul bleibt dein Abwurfbereich frei von Kabeln. 🎯</li>
   <li><b>🔋 Enorme Akkulaufzeit:</b> Eine einzige Ladung hält bei normaler Nutzung bis zu <b>6 Wochen</b>. Der integrierte Tiefschlafmodus schont die Batterie zusätzlich. ⚡</li>
   <li><b>⌨️ Hochwertiger Druckpunkt:</b> 12 mechanische Gateron G Pro 3.0 Schalter bieten ein erstklassiges haptisches Feedback und garantieren eine zuverlässige Bedienung. ⌨️</li>
   <li><b>☁️ Cloud-Konfiguration:</b> Die Tastenbelegung kann direkt im Browser über GitHub-Automatisierungen angepasst werden – es ist keine lokale Programmierumgebung erforderlich. ☁️</li>
-  <li><b>🖥️ System-Integration:</b> Der Akkustand wird direkt in den Einstellungen von Windows oder Linux angezeigt. 🖥️</li>
+  [cite_start]<li><b>🖥️ System-Integration:</b> Der Akkustand wird direkt in den Einstellungen von Windows oder Linux angezeigt [cite: 136-138]. 🖥️</li>
 </ul>
 
 <hr />
 
-<h2>📖 Umfangreiche Anleitung</h2>
+<h2 id="manual-de">📖 Umfangreiche Anleitung</h2>
 <p>
   In diesem Projektarchiv findest du eine <b>detaillierte 33-seitige PDF-Anleitung</b>. Diese führt dich Schritt für Schritt durch den gesamten Prozess: von den optimalen Einstellungen für den 3D-Druck über das präzise Verlöten der Tastatur-Matrix bis hin zur Installation der Steuersoftware und der persönlichen Tastenbelegung.
   <br><br>
@@ -216,7 +240,7 @@
 
 <hr />
 
-<h2>📦 Stückliste</h2>
+<h2 id="bom-de">📦 Stückliste</h2>
 <p>Dieses Projekt wird für erfahrene Bastler empfohlen, da es fundierte Kenntnisse im 3D-Druck und im Weichlöten voraussetzt. 🛠️</p>
 <table>
   <thead>
@@ -278,7 +302,7 @@
 
 <hr />
 
-<h2>🗺️ Stromlaufplan & Anschlussbelegung</h2>
+<h2 id="diagrams-de">🗺️ Stromlaufplan & Anschlussbelegung</h2>
 <div align="center">
   <h3>🛠️ Schaltplan der Tastatur-Matrix</h3>
   <img src="https://github.com/mrcl-rckl/autodarts_macropad/blob/main/readme-images/0_Wiring_Diagram.png?raw=true" alt="Stromlaufplan" width="800">
@@ -289,7 +313,7 @@
 
 <hr />
 
-<h2>🎹 Standard-Tastenbelegung</h2>
+<h2 id="keymap-de">🎹 Standard-Tastenbelegung</h2>
 <p>Die Tasten sind für die Autodarts-Weboberfläche optimiert, damit du dich voll auf deine Würfe konzentrieren kannst. 🎯</p>
 
 <div align="center">
@@ -337,7 +361,7 @@
 
 <hr />
 
-<h2>💡 Bedienung & Fehlerbehebung</h2>
+<h2 id="operation-de">💡 Bedienung & Fehlerbehebung</h2>
 <ul>
   <li><b>Ladevorgang:</b> Der physische Kippschalter <b>MUSS auf EIN (ON)</b> stehen, damit der Akku über USB-C geladen werden kann. 🔌</li>
   <li><b>Verbindung zurücksetzen:</b> Um die Bluetooth-Kopplung zu löschen, halte die Tasten <b>[Pfeil Links] + [Pfeil Rechts]</b> gleichzeitig für 5 Sekunden gedrückt. 🔄</li>
@@ -347,7 +371,7 @@
 
 <hr />
 
-<h2>☕ Unterstützung</h2>
+<h2 id="support-de">☕ Unterstützung</h2>
 <p align="left">
   Hat dieses Projekt bei dir ins Schwarze getroffen? Wenn du meine Arbeit unterstützen möchtest, freue ich mich über einen digitalen Kaffee! Jeder Beitrag fließt direkt in die Entwicklung neuer Prototypen und quelloffener Werkzeuge für die Community. 🎯☕
   <br><br>
