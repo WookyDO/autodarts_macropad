@@ -24,24 +24,24 @@
 
 <h2 id="features-en">🚀 Key Features</h2>
 <ul>
-  [cite_start]<li><b>📶 True Wireless:</b> Low-energy Bluetooth 5.0 connectivity via the nRF52840 controller for a cable-free oche[cite: 251].</li>
-  [cite_start]<li><b>🔋 Massive Battery Life:</b> Operates for up to <b>6 weeks</b> on a single charge[cite: 256].</li>
-  [cite_start]<li><b>⌨️ Superior Tactile Feedback:</b> 12 mechanical Gateron G Pro 3.0 switches provide a high-quality actuation point for reliable inputs[cite: 20].</li>
-  [cite_start]<li><b>☁️ Cloud Configuration:</b> Customize your keymap directly in the browser via GitHub Actions—no local coding environment required[cite: 390, 391].</li>
-  [cite_start]<li><b>🖥️ OS Integration:</b> Battery percentage is reported natively and can be viewed in Windows or Linux system settings [cite: 319-322].</li>
+  <li><b>📶 True Wireless:</b> Low-energy Bluetooth 5.0 connectivity via the nRF52840 controller for a cable-free oche. 🎯</li>
+  <li><b>🔋 Massive Battery Life:</b> Operates for up to <b>6 weeks</b> on a single charge. The integrated deep-sleep mode further preserves battery life. ⚡</li>
+  <li><b>⌨️ Superior Tactile Feedback:</b> 12 mechanical Gateron G Pro 3.0 switches provide a high-quality actuation point for reliable inputs. ⌨️</li>
+  <li><b>☁️ Cloud Configuration:</b> Customize your keymap directly in the browser via GitHub Actions—no local coding environment required. ☁️</li>
+  <li><b>🖥️ OS Integration:</b> Battery percentage is reported natively and can be viewed in Windows or Linux system settings. 🖥️</li>
 </ul>
 
 <hr />
 
 <h2 id="manual-en">📖 Comprehensive Manual</h2>
 <blockquote>
-  [cite_start]This repository includes a <b>detailed 33-page PDF instruction manual</b>[cite: 14]. [cite_start]It covers the entire process: from optimized 3D printing settings and complex matrix soldering to flashing the ZMK firmware and customized key mapping[cite: 54, 69, 389].
+  This repository includes a <b>detailed 33-page PDF instruction manual</b>. It covers the entire process: from optimized 3D printing settings and complex matrix soldering to flashing the ZMK firmware and customized key mapping.
 </blockquote>
 
 <hr />
 
 <h2 id="bom-en">📦 Bill of Materials (BOM)</h2>
-[cite_start]<p>This project is designed for experienced makers and involves 3D printing, component assembly, and precision soldering[cite: 7, 8].</p>
+<p>This project is designed for experienced makers and involves 3D printing, component assembly, and precision soldering. 🛠️</p>
 <table>
   <thead>
     <tr>
@@ -54,50 +54,50 @@
     <tr>
       <td>12x</td>
       <td><b>Gateron G Pro 3.0 Switches</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005007052507996.html">AliExpress</a> [cite: 20, 21]</td>
+      <td><a href="https://de.aliexpress.com/item/1005007052507996.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>nRF52840 Developer Board (SuperMini)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005008664621573.html">AliExpress</a> [cite: 22, 24]</td>
+      <td><a href="https://de.aliexpress.com/item/1005008664621573.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>500mAh LiPo Battery (503030)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005009836119485.html">AliExpress</a> [cite: 25, 26]</td>
+      <td><a href="https://de.aliexpress.com/item/1005009836119485.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>12x</td>
       <td><b>1N4148 Diodes</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005006208000285.html">AliExpress</a> [cite: 27, 28]</td>
+      <td><a href="https://de.aliexpress.com/item/1005006208000285.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>16x</td>
       <td><b>Jumper Wires Female (20-30cm)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005007046465880.html">AliExpress</a> [cite: 29]</td>
+      <td><a href="https://de.aliexpress.com/item/1005007046465880.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>Toggle Switch (MTS-101)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005005942183255.html">AliExpress</a> [cite: 30, 31]</td>
+      <td><a href="https://de.aliexpress.com/item/1005005942183255.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>ASUS USB-BT500 Bluetooth Dongle</b></td>
-      [cite_start]<td><a href="https://www.cyberport.de/pc-und-zubehoer/netzwerk/bluetooth/asus/pdp/4e18-007/asus-usb-bt500-bluetooth-5-0-usb-adapter.html">Cyberport</a> [cite: 32-34]</td>
+      <td><a href="https://www.cyberport.de/pc-und-zubehoer/netzwerk/bluetooth/asus/pdp/4e18-007/asus-usb-bt500-bluetooth-5-0-usb-adapter.html">Cyberport</a></td>
     </tr>
   </tbody>
 </table>
 
 <h3>🛠️ Required Tools & Additional Materials</h3>
 <ul>
-  [cite_start]<li>USB-C charging cable [cite: 40]</li>
-  [cite_start]<li>Soldering iron & Solder wire [cite: 41, 42]</li>
-  [cite_start]<li>Hot air gun or lighter (for insulation) [cite: 43]</li>
-  [cite_start]<li>Heat shrinks & side cutters [cite: 44, 45]</li>
-  [cite_start]<li>Pliers & wire stripping tool [cite: 46, 47]</li>
-  [cite_start]<li>Super glue (for mounting logos) [cite: 48, 268]</li>
-  [cite_start]<li>Filament (PLA or PETG - 2 colors recommended) [cite: 49]</li>
+  <li>USB-C charging cable</li>
+  <li>Soldering iron & Solder wire</li>
+  <li>Hot air gun or lighter (for insulation)</li>
+  <li>Heat shrinks & side cutters</li>
+  <li>Pliers & wire stripping tool</li>
+  <li>Super glue (for mounting logos)</li>
+  <li>Filament (PLA or PETG - 2 colors recommended)</li>
 </ul>
 
 <hr />
@@ -114,7 +114,7 @@
 <hr />
 
 <h2 id="keymap-en">🎹 Default Key Assignment</h2>
-[cite_start]<p>The layout is fully optimized for the Autodarts web interface commands[cite: 291].</p>
+<p>The layout is fully optimized for the Autodarts web interface commands. 🎯</p>
 
 <div align="center">
   <img src="https://github.com/mrcl-rckl/autodarts_macropad/blob/main/readme-images/0_Key_Assignment.png?raw=true" alt="Keymap Assignment" width="800">
@@ -134,27 +134,27 @@
   <tbody>
     <tr>
       <td><b>Row 1</b></td>
-      [cite_start]<td>Start/Stop Board (S) [cite: 294]</td>
-      [cite_start]<td>Reset Board (R) [cite: 295]</td>
-      [cite_start]<td>Reload Webpage (F5) [cite: 298]</td>
+      <td>Start/Stop Board (S)</td>
+      <td>Reset Board (R)</td>
+      <td>Reload Webpage (F5)</td>
     </tr>
     <tr>
       <td><b>Row 2</b></td>
-      [cite_start]<td>Undo Throw (Backspace) [cite: 301]</td>
-      [cite_start]<td>Call AI Referee (A) [cite: 302]</td>
-      [cite_start]<td>Next Throw (Enter) [cite: 303]</td>
+      <td>Undo Throw (Backspace)</td>
+      <td>Call AI Referee (A)</td>
+      <td>Next Throw (Enter)</td>
     </tr>
     <tr>
       <td><b>Row 3</b></td>
-      [cite_start]<td><i>Free for Updates</i> [cite: 305]</td>
-      [cite_start]<td>Cancel "Removing Darts" (Click) [cite: 306]</td>
-      [cite_start]<td>Toggle Fullscreen (F11) [cite: 307]</td>
+      <td><i>Free for Updates</i></td>
+      <td>Cancel "Removing Darts" (Click)</td>
+      <td>Toggle Fullscreen (F11)</td>
     </tr>
     <tr>
       <td><b>Row 4</b></td>
-      [cite_start]<td>Switch Camera 1 (Key 1) [cite: 308]</td>
-      [cite_start]<td>Switch Camera 2 (Key 2) [cite: 309]</td>
-      [cite_start]<td>Switch Camera 3 (Key 3) [cite: 310]</td>
+      <td>Switch Camera 1 (Key 1)</td>
+      <td>Switch Camera 2 (Key 2)</td>
+      <td>Switch Camera 3 (Key 3)</td>
     </tr>
   </tbody>
 </table>
@@ -163,10 +163,10 @@
 
 <h2 id="operation-en">💡 Operation & Troubleshooting</h2>
 <ul>
-  [cite_start]<li><b>Charging:</b> The physical toggle switch <b>MUST be in the ON position</b> to charge the battery via USB-C[cite: 254, 325, 348].</li>
-  [cite_start]<li><b>Pairing Reset:</b> To clear existing Bluetooth bonds, hold the <b>[Arrow Left] + [Arrow Right]</b> keys simultaneously for 5 seconds[cite: 258, 330].</li>
-  [cite_start]<li><b>Bootloader Mode:</b> If the device is not recognized as a drive, bridge the <b>GND</b> and <b>RST</b> pins twice quickly while connected to the PC[cite: 226, 368].</li>
-  [cite_start]<li><b>Input Focus:</b> Ensure the browser window is "in focus" (clicked) for Autodarts to register key presses[cite: 382, 383].</li>
+  <li><b>Charging:</b> The physical toggle switch <b>MUST be in the ON position</b> to charge the battery via USB-C. 🔌</li>
+  <li><b>Pairing Reset:</b> To clear existing Bluetooth bonds, hold the <b>[Arrow Left] + [Arrow Right]</b> keys simultaneously for 5 seconds. 🔄</li>
+  <li><b>Bootloader Mode:</b> If the device is not recognized as a drive, bridge the <b>GND</b> and <b>RST</b> pins twice quickly while connected to the PC. 💾</li>
+  <li><b>Input Focus:</b> Ensure the browser window is "in focus" (clicked) for Autodarts to register key presses. 🎯</li>
 </ul>
 
 <hr />
@@ -192,26 +192,26 @@
 
 <hr />
 
-<h2>📖 Umfangreiche Anleitung</h2>
-<blockquote>
-  [cite_start]In diesem Projektarchiv findest du eine <b>detaillierte 33-seitige PDF-Anleitung</b>[cite: 14]. [cite_start]Diese führt dich Schritt für Schritt durch den gesamten Prozess: von den optimalen Einstellungen für den 3D-Druck über das präzise Verlöten der Tastatur-Matrix bis hin zur Installation der Steuersoftware und der persönlichen Tastenbelegung[cite: 54, 69, 389].
-</blockquote>
-
-<hr />
-
 <h2>🚀 Hauptmerkmale</h2>
 <ul>
-  [cite_start]<li><b>📶 Vollkommen Kabellos:</b> Dank Bluetooth 5.0 und dem nRF52840-Steuermodul bleibt dein Abwurfbereich frei von Kabeln[cite: 251]. 🎯</li>
-  <li><b>🔋 Enorme Akkulaufzeit:</b> Eine einzige Ladung hält bei normaler Nutzung bis zu <b>6 Wochen</b>. [cite_start]Der integrierte Tiefschlafmodus schont die Batterie zusätzlich[cite: 256, 318]. ⚡</li>
-  [cite_start]<li><b>⌨️ Hochwertiger Druckpunkt:</b> 12 mechanische Gateron G Pro 3.0 Schalter bieten ein erstklassiges haptisches Feedback und garantieren eine zuverlässige Bedienung[cite: 20]. ⌨️</li>
-  [cite_start]<li><b>☁️ Cloud-Konfiguration:</b> Die Tastenbelegung kann direkt im Browser über GitHub-Automatisierungen angepasst werden – es ist keine lokale Programmierumgebung erforderlich[cite: 390, 391]. ☁️</li>
-  [cite_start]<li><b>🖥️ System-Integration:</b> Der Akkustand wird direkt in den Einstellungen von Windows oder Linux angezeigt [cite: 319-322]. 🖥️</li>
+  <li><b>📶 Vollkommen Kabellos:</b> Dank Bluetooth 5.0 und dem nRF52840-Steuermodul bleibt dein Abwurfbereich frei von Kabeln. 🎯</li>
+  <li><b>🔋 Enorme Akkulaufzeit:</b> Eine einzige Ladung hält bei normaler Nutzung bis zu <b>6 Wochen</b>. Der integrierte Tiefschlafmodus schont die Batterie zusätzlich. ⚡</li>
+  <li><b>⌨️ Hochwertiger Druckpunkt:</b> 12 mechanische Gateron G Pro 3.0 Schalter bieten ein erstklassiges haptisches Feedback und garantieren eine zuverlässige Bedienung. ⌨️</li>
+  <li><b>☁️ Cloud-Konfiguration:</b> Die Tastenbelegung kann direkt im Browser über GitHub-Automatisierungen angepasst werden – es ist keine lokale Programmierumgebung erforderlich. ☁️</li>
+  <li><b>🖥️ System-Integration:</b> Der Akkustand wird direkt in den Einstellungen von Windows oder Linux angezeigt. 🖥️</li>
 </ul>
 
 <hr />
 
+<h2>📖 Umfangreiche Anleitung</h2>
+<blockquote>
+  In diesem Projektarchiv findest du eine <b>detaillierte 33-seitige PDF-Anleitung</b>. Diese führt dich Schritt für Schritt durch den gesamten Prozess: von den optimalen Einstellungen für den 3D-Druck über das präzise Verlöten der Tastatur-Matrix bis hin zur Installation der Steuersoftware und der persönlichen Tastenbelegung.
+</blockquote>
+
+<hr />
+
 <h2>📦 Stückliste</h2>
-[cite_start]<p>Dieses Projekt wird für erfahrene Bastler empfohlen, da es fundierte Kenntnisse im 3D-Druck und im Weichlöten voraussetzt[cite: 7, 8]. 🛠️</p>
+<p>Dieses Projekt wird für erfahrene Bastler empfohlen, da es fundierte Kenntnisse im 3D-Druck und im Weichlöten voraussetzt. 🛠️</p>
 <table>
   <thead>
     <tr>
@@ -224,50 +224,50 @@
     <tr>
       <td>12x</td>
       <td><b>Gateron G Pro 3.0 Tastenschalter</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005007052507996.html">AliExpress</a> [cite: 20, 21]</td>
+      <td><a href="https://de.aliexpress.com/item/1005007052507996.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>nRF52840 Entwickler-Platine (SuperMini)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005008664621573.html">AliExpress</a> [cite: 22, 24]</td>
+      <td><a href="https://de.aliexpress.com/item/1005008664621573.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>500mAh LiPo Akku (Bauform 503030)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005009836119485.html">AliExpress</a> [cite: 25, 26]</td>
+      <td><a href="https://de.aliexpress.com/item/1005009836119485.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>12x</td>
       <td><b>1N4148 Dioden</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005006208000285.html">AliExpress</a> [cite: 27, 28]</td>
+      <td><a href="https://de.aliexpress.com/item/1005006208000285.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>16x</td>
       <td><b>Steckbrückenkabel (weiblich, 20-30cm)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005007046465880.html">AliExpress</a> [cite: 29]</td>
+      <td><a href="https://de.aliexpress.com/item/1005007046465880.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>Kippschalter (MTS-101)</b></td>
-      [cite_start]<td><a href="https://de.aliexpress.com/item/1005005942183255.html">AliExpress</a> [cite: 30, 31]</td>
+      <td><a href="https://de.aliexpress.com/item/1005005942183255.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
       <td><b>ASUS USB-BT500 Bluetooth-Adapter</b></td>
-      [cite_start]<td><a href="https://www.cyberport.de/pc-und-zubehoer/netzwerk/bluetooth/asus/pdp/4e18-007/asus-usb-bt500-bluetooth-5-0-usb-adapter.html">Cyberport</a> [cite: 32-34]</td>
+      <td><a href="https://www.cyberport.de/pc-und-zubehoer/netzwerk/bluetooth/asus/pdp/4e18-007/asus-usb-bt500-bluetooth-5-0-usb-adapter.html">Cyberport</a></td>
     </tr>
   </tbody>
 </table>
 
 <h3>🛠️ Erforderliche Werkzeuge & Materialien</h3>
 <ul>
-  [cite_start]<li>USB-C Ladekabel [cite: 40]</li>
-  [cite_start]<li>Lötkolben & Lötzinn [cite: 41, 42]</li>
-  [cite_start]<li>Heißluftfön oder Feuerzeug (für die Isolierung der Kontakte) [cite: 43]</li>
-  [cite_start]<li>Schrumpfschläuche & Seitenschneider [cite: 44, 45]</li>
-  [cite_start]<li>Zange & Abisolierwerkzeug [cite: 46, 47]</li>
-  [cite_start]<li>Sekundenkleber (zum Fixieren der Logos) [cite: 48, 268]</li>
-  [cite_start]<li>Filament (PLA oder PETG - 2 Farben für Kontrast-Optik empfohlen) [cite: 49]</li>
+  <li>USB-C Ladekabel</li>
+  <li>Lötkolben & Lötzinn</li>
+  <li>Heißluftfön oder Feuerzeug (für die Isolierung der Kontakte)</li>
+  <li>Schrumpfschläuche & Seitenschneider</li>
+  <li>Zange & Abisolierwerkzeug</li>
+  <li>Sekundenkleber (zum Fixieren der Logos)</li>
+  <li>Filament (PLA oder PETG - 2 verschiedene Farben für Kontrast-Optik empfohlen)</li>
 </ul>
 
 <hr />
@@ -284,7 +284,7 @@
 <hr />
 
 <h2>🎹 Standard-Tastenbelegung</h2>
-<p>Die Tasten sind für die Autodarts-Weboberfläche optimiert, damit du dich voll auf deine Würfe konzentrieren kannst. [cite_start]🎯 [cite: 291]</p>
+<p>Die Tasten sind für die Autodarts-Weboberfläche optimiert, damit du dich voll auf deine Würfe konzentrieren kannst. 🎯</p>
 
 <div align="center">
   <img src="https://github.com/mrcl-rckl/autodarts_macropad/blob/main/readme-images/0_Key_Assignment.png?raw=true" alt="Tastenbelegung" width="800">
@@ -304,27 +304,27 @@
   <tbody>
     <tr>
       <td><b>Reihe 1</b></td>
-      [cite_start]<td>Board Start/Stop (S) [cite: 294]</td>
-      [cite_start]<td>Board zurücksetzen (R) [cite: 295]</td>
-      [cite_start]<td>Seite neu laden (F5) [cite: 298]</td>
+      <td>Board Start/Stop (S)</td>
+      <td>Board zurücksetzen (R)</td>
+      <td>Webseite neu laden (F5)</td>
     </tr>
     <tr>
       <td><b>Reihe 2</b></td>
-      [cite_start]<td>Wurf rückgängig (Rücktaste) [cite: 301]</td>
-      [cite_start]<td>KI-Schiedsrichter rufen (A) [cite: 302]</td>
-      [cite_start]<td>Nächster Wurf (Eingabe) [cite: 303]</td>
+      <td>Wurf rückgängig (Rücktaste)</td>
+      <td>KI-Schiedsrichter rufen (A)</td>
+      <td>Nächster Wurf (Eingabe)</td>
     </tr>
     <tr>
       <td><b>Reihe 3</b></td>
-      [cite_start]<td><i>Frei für Erweiterungen</i> [cite: 305]</td>
-      [cite_start]<td>"Darts entfernen" Abbruch (Linksklick) [cite: 306]</td>
-      [cite_start]<td>Vollbild umschalten (F11) [cite: 307]</td>
+      <td><i>Frei für Erweiterungen</i></td>
+      <td>"Darts entfernen" Abbruch (Linksklick)</td>
+      <td>Vollbild umschalten (F11)</td>
     </tr>
     <tr>
       <td><b>Reihe 4</b></td>
-      [cite_start]<td>Kamera 1 (Taste 1) [cite: 308]</td>
-      [cite_start]<td>Kamera 2 (Taste 2) [cite: 309]</td>
-      [cite_start]<td>Kamera 3 (Taste 3) [cite: 310]</td>
+      <td>Kamera 1 (Taste 1)</td>
+      <td>Kamera 2 (Taste 2)</td>
+      <td>Kamera 3 (Taste 3)</td>
     </tr>
   </tbody>
 </table>
@@ -333,10 +333,10 @@
 
 <h2>💡 Bedienung & Fehlerbehebung</h2>
 <ul>
-  [cite_start]<li><b>Ladevorgang:</b> Der physische Kippschalter <b>MUSS auf ON</b> stehen, damit der Akku über USB-C geladen werden kann[cite: 254, 325, 348].🔌</li>
-  [cite_start]<li><b>Verbindung zurücksetzen:</b> Um die Bluetooth-Kopplung zu löschen, halte die Tasten <b>[Pfeil Links] + [Pfeil Rechts]</b> gleichzeitig für 5 Sekunden gedrückt[cite: 258, 330]. 🔄</li>
-  [cite_start]<li><b>Bootloader-Modus:</b> Falls die Platine nicht als Laufwerk erkannt wird, überbrücke kurz zweimal hintereinander die Kontakte <b>GND</b> und <b>RST</b>[cite: 226, 368]. 💾</li>
-  [cite_start]<li><b>Eingabe-Fokus:</b> Das Browserfenster muss aktiv sein („im Fokus“), damit Autodarts die Tastaturbefehle registriert[cite: 382, 383]. 🎯</li>
+  <li><b>Ladevorgang:</b> Der physische Kippschalter <b>MUSS auf EIN (ON)</b> stehen, damit der Akku über USB-C geladen werden kann. Steht er auf AUS (OFF), ist der Ladestromkreis unterbrochen. 🔌</li>
+  <li><b>Verbindung zurücksetzen:</b> Um die Bluetooth-Kopplung zu löschen, halte die Tasten <b>[Pfeil Links] + [Pfeil Rechts]</b> gleichzeitig für 5 Sekunden gedrückt. 🔄</li>
+  <li><b>Bootloader-Modus:</b> Falls die Platine nicht als Laufwerk erkannt wird, überbrücke kurz zweimal hintereinander die Kontakte <b>GND</b> und <b>RST</b>. 💾</li>
+  <li><b>Eingabe-Fokus:</b> Das Browserfenster muss aktiv sein („im Fokus“), damit Autodarts die Tastaturbefehle registriert. 🎯</li>
 </ul>
 
 <hr />
