@@ -139,7 +139,7 @@
 <h2 id="operation-en">💡 Operation & Troubleshooting</h2>
 <ul>
   <li><b>Charging:</b> The physical toggle switch <b>MUST be in the ON position</b> to charge the battery via USB-C. 🔌</li>
-  <li><b>Pairing Reset:</b> To clear existing Bluetooth bonds, hold the <b>[Arrow Left] + [Arrow Right]</b> keys simultaneously for 5 seconds. 🔄</li>
+  <li><b>Pairing Reset:</b> To clear existing Bluetooth bonds, press <b>[Arrow Left] + [Arrow Right]</b> keys simultaneously twice. 🔄</li>
   <li><b>Bootloader Mode:</b> If the device is not recognized as a drive, bridge the <b>GND</b> and <b>RST</b> pins twice quickly while connected to the PC. 💾</li>
   <li><b>Input Focus:</b> Ensure the browser window is "in focus" (clicked) for Autodarts to register key presses. 🎯</li>
 </ul>
@@ -298,7 +298,7 @@
 <h2 id="operation-de">💡 Bedienung & Fehlerbehebung</h2>
 <ul>
   <li><b>Ladevorgang:</b> Der physische Kippschalter <b>MUSS auf EIN (ON)</b> stehen, damit der Akku über USB-C geladen werden kann. 🔌</li>
-  <li><b>Verbindung zurücksetzen:</b> Um die Bluetooth-Kopplung zu löschen, halte die Tasten <b>[Pfeil Links] + [Pfeil Rechts]</b> gleichzeitig für 5 Sekunden gedrückt. 🔄</li>
+  <li><b>Verbindung zurücksetzen:</b> Um die Bluetooth-Kopplung zu löschen, die Tasten <b>[Pfeil Links] + [Pfeil Rechts]</b> gleichzeitig zweimal drücken. 🔄</li>
   <li><b>Bootloader-Modus:</b> Falls die Platine nicht als Laufwerk erkannt wird, überbrücke kurz zweimal hintereinander die Kontakte <b>GND</b> und <b>RST</b>. 💾</li>
   <li><b>Eingabe-Fokus:</b> Das Browserfenster muss aktiv sein („im Fokus“), damit Autodarts die Tastaturbefehle registriert. 🎯</li>
 </ul>
