@@ -91,7 +91,7 @@
     <tr>
       <td>1x</td>
       <td><b>Toggle Switch (MTS-101)</b></td>
-      <td><a href="https://de.aliexpress.com/item/4001252480288.html">AliExpress</a></td>
+      <td><a href="https://de.aliexpress.com/item/1005009744920784.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
@@ -252,7 +252,7 @@
     <tr>
       <td>1x</td>
       <td><b>Kippschalter (MTS-101)</b></td>
-      <td><a href="https://de.aliexpress.com/item/4001252480288.html">AliExpress</a></td>
+      <td><a href="https://de.aliexpress.com/item/1005009744920784.html">AliExpress</a></td>
     </tr>
     <tr>
       <td>1x</td>
