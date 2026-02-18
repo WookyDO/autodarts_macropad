@@ -71,8 +71,6 @@
             tapping-term-ms = <300>;
             bindings = <&mkp LCLK>, <&kp N8>;
         };
-    };
-
 
         td_n9: tap_dance_n9 {
             compatible = "zmk,behavior-tap-dance";
