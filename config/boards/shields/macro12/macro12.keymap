@@ -19,7 +19,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_N1";
             #binding-cells = <0>;
-            tapping-term-ms = <200>; 
+            tapping-term-ms = <300>; 
             bindings = <&kp KP_DIVIDE>, <&kp N1>; 
         };
 
@@ -27,7 +27,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_N2";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             bindings = <&kp KP_MULTIPLY>, <&kp N2>;
         };
 
@@ -35,25 +35,51 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_N3";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             bindings = <&kp KP_MINUS>, <&kp N3>; 
         };
 
-        // --- Mittlere Reihe (Zahlen Erweiterung) ---
-        td_n5_n6: tap_dance_n5_n6 {
+        td_n4: tap_dance_n4 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N5_N6";
+            label = "TD_N4";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp N5>, <&kp N6>;
+            tapping-term-ms = <300>;
+            bindings = <&kp BSPC>, <&kp N4>; 
         };
 
-        td_n7_n8: tap_dance_n7_n8 {
+        // --- Mittlere Reihe (Zahlen Erweiterung) ---
+        td_n5: tap_dance_n5 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N7_N8";
+            label = "TD_N5";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp N7>, <&kp N8>;
+            tapping-term-ms = <300>;
+            bindings = <&kp A>, <&kp N5>;
+        };
+
+        td_n6: tap_dance_n6 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N6";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp ENTER>, <&kp N6>;
+        };
+
+        td_n8: tap_dance_n8 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N8";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&mkp LCLK>, <&kp N8>;
+        };
+    };
+
+
+        td_n9: tap_dance_n9 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N9";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp R>, <&kp N9>;
         };
     };
 
@@ -74,8 +100,8 @@
         default_layer {
             bindings = <
                 &kp S          &kp F5          &kp F11     
-                &td_n5_n6      &mkp LCLK       &td_n7_n8   
-                &kp BSPC       &kp A           &kp ENTER   
+                &kp N7         &td_n8          &td_n9 
+                &td_n4         &td_n5          &td_n6   
                 &td_n1         &td_n2          &td_n3      
             >;
         };
