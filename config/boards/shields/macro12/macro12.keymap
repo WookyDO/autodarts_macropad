@@ -8,7 +8,6 @@
         // --- Bluetooth Reset ---
         td_bt_reset: tap_dance_bt_reset {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_BT_RESET";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
             bindings = <&none>, <&bt BT_CLR>;
@@ -17,7 +16,6 @@
         // --- Untere Reihe (Sonderzeichen / Zahlen) ---
         td_n1: tap_dance_n1 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N1";
             #binding-cells = <0>;
             tapping-term-ms = <200>; 
             bindings = <&kp KP_DIVIDE>, <&kp N1>; 
@@ -25,7 +23,6 @@
 
         td_n2: tap_dance_n2 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N2";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp KP_MULTIPLY>, <&kp N2>;
@@ -33,7 +30,6 @@
 
         td_n3: tap_dance_n3 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N3";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp KP_MINUS>, <&kp N3>; 
@@ -41,7 +37,6 @@
 
         td_n4: tap_dance_n4 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N4";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp BSPC>, <&kp N4>; 
@@ -50,7 +45,6 @@
         // --- Mittlere Reihe (Zahlen Erweiterung) ---
         td_n5: tap_dance_n5 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N5";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp A>, <&kp N5>;
@@ -58,7 +52,6 @@
 
         td_n6: tap_dance_n6 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N6";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp ENTER>, <&kp N6>;
@@ -66,7 +59,6 @@
 
         td_n7: tap_dance_n7 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N7";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp M>, <&kp N7>;
@@ -74,7 +66,6 @@
 
         td_n8: tap_dance_n8 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N8";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mkp LCLK>, <&kp N8>;
@@ -82,7 +73,6 @@
 
         td_n9: tap_dance_n9 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_N9";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp R>, <&kp N9>;
@@ -113,3 +103,4 @@
         };
     };
 };
+
