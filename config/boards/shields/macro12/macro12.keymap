@@ -10,7 +10,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&kp X>, <&bt BT_CLR>;
+            bindings = <&kp X>, <&bt BT_CLR_ALL>;
         };
         
         // --- Untere Reihe (Sonderzeichen / Zahlen) ---
