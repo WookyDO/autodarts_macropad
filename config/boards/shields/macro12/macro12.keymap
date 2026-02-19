@@ -5,84 +5,112 @@
 
 / {
     behaviors {
-        // --- Bluetooth Reset ---
+        // --- Bluetooth Reset (Double Tap to Clear) ---
         td_bt_reset: tap_dance_bt_reset {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD_BT_RESET";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&kp X>, <&bt BT_CLR_ALL>;
-        };
-        
-        // --- Untere Reihe (Sonderzeichen / Zahlen) ---
-        td_n1: tap_dance_n1 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>; 
-            bindings = <&kp KP_DIVIDE>, <&kp N1>; 
+            bindings = <&none>, <&bt BT_CLR>;
         };
 
-        td_n2: tap_dance_n2 {
+        // --- Row 1 (Top): 7, 8, 9 ---
+        td_n7: td_n7 {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD_N7";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp KP_MULTIPLY>, <&kp N2>;
+            tapping-term-ms = <300>;
+            bindings = <&kp S>, <&kp KP_N7>; 
+        };
+        td_n8: td_n8 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N8";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp F5>, <&kp KP_N8>;
+        };
+        td_n9: td_n9 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N9";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp F11>, <&kp KP_N9>;
         };
 
-        td_n3: tap_dance_n3 {
+        // --- Row 2: 4, 5, 6 ---
+        td_n4: td_n4 {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD_N4";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp KP_MINUS>, <&kp N3>; 
+            tapping-term-ms = <300>;
+            bindings = <&kp BSPC>, <&kp KP_N4>; 
+        };
+        td_n5: td_n5 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N5";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&mkp LCLK>, <&kp KP_N5>;
+        };
+        td_n6: td_n6 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N6";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp R>, <&kp KP_N6>;
         };
 
-        td_n4: tap_dance_n4 {
+        // --- Row 3: 1, 2, 3 ---
+        td_n1: td_n1 {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD_N1";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp BSPC>, <&kp N4>; 
+            tapping-term-ms = <300>;
+            bindings = <&kp A>, <&kp KP_N1>;
+        };
+        td_n2: td_n2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N2";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp ENTER>, <&kp KP_N2>;
+        };
+        td_n3: td_n3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N3";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp TAB>, <&kp KP_N3>; 
         };
 
-        // --- Mittlere Reihe (Zahlen Erweiterung) ---
-        td_n5: tap_dance_n5 {
+        // --- Row 4 (Bottom): Symbols / 0, . ---
+        // Single tap uses your original KP_DIVIDE, KP_MULTIPLY, KP_MINUS
+        td_n0: td_n0 {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD_N0";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp A>, <&kp N5>;
+            tapping-term-ms = <300>;
+            bindings = <&kp KP_DIVIDE>, <&kp KP_N0>;
         };
-
-        td_n6: tap_dance_n6 {
+        td_dot: td_dot {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD_DOT";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp ENTER>, <&kp N6>;
+            tapping-term-ms = <300>;
+            bindings = <&kp KP_MULTIPLY>, <&kp KP_DOT>;
         };
-
-        td_n7: tap_dance_n7 {
+        td_minus: td_minus {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD_MINUS";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp M>, <&kp N7>;
-        };
-
-        td_n8: tap_dance_n8 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mkp LCLK>, <&kp N8>;
-        };
-
-        td_n9: tap_dance_n9 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp R>, <&kp N9>;
+            tapping-term-ms = <300>;
+            bindings = <&kp KP_SUBTRACT>, <&bt BT_CLR_ALL>;
         };
     };
 
     combos {
         compatible = "zmk,combos";
-        
-        // Bluetooth Reset Combo (Backspace + Enter)
+        // BT Clear Combo remains on the outer keys of the 3rd row
         combo_bt_clr {
             timeout-ms = <100>;
             key-positions = <6 8>;
@@ -92,15 +120,13 @@
 
     keymap {
         compatible = "zmk,keymap";
-
         default_layer {
             bindings = <
-                &bt BT_CLR     &kp F5          &kp F11     
-                &td_n7         &td_n8          &td_n9 
-                &td_n4         &td_n5          &td_n6   
+                &td_n7         &td_n8          &td_n9     
+                &td_n4         &td_n5          &td_n6      
                 &td_n1         &td_n2          &td_n3      
+                &td_n0         &td_dot         &td_minus      
             >;
         };
     };
 };
-
