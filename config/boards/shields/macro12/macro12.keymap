@@ -10,7 +10,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&none>, <&bt BT_CLR>;
+            bindings = <&kp X>, <&bt BT_CLR>;
         };
         
         // --- Untere Reihe (Sonderzeichen / Zahlen) ---
@@ -85,7 +85,7 @@
         // Bluetooth Reset Combo (Backspace + Enter)
         combo_bt_clr {
             timeout-ms = <100>;
-            key-positions = <0 2>;
+            key-positions = <6 8>;
             bindings = <&td_bt_reset>;
         };
     };
