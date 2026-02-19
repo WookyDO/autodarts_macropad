@@ -95,7 +95,7 @@
 
         default_layer {
             bindings = <
-                &kp S          &kp F5          &kp F11     
+                &bt BT_CLR     &kp F5          &kp F11     
                 &td_n7         &td_n8          &td_n9 
                 &td_n4         &td_n5          &td_n6   
                 &td_n1         &td_n2          &td_n3      
