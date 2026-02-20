@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
 
 / {
     behaviors {
@@ -34,14 +33,14 @@
             label = "TD_N4";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&kp M>, <&kp KP_N4>; 
+            bindings = <&kp F>, <&kp KP_N4>; 
         };
         td_n5: td_n5 {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_N5";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&mkp LCLK>, <&kp KP_N5>;
+            bindings = <&kp SPACE>, <&kp KP_N5>;
         };
         td_n6: td_n6 {
             compatible = "zmk,behavior-tap-dance";
@@ -94,7 +93,7 @@
             label = "TD_MINUS";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&kp KP_SUBTRACT>, <&kp KP_SUBTRACT>; // Bereinigt: Kein BT Reset mehr hier
+            bindings = <&kp KP_MINUS>, <&kp ENTER>; 
         };
     };
 
